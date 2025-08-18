@@ -1,18 +1,18 @@
-# 📈 Predictive Analytics for the Federal Funds Rate
+#  Predictive Analytics for the Federal Funds Rate
 
-## 📘 Overview
+##  Overview
 
 This project explores the use of predictive analytics to forecast the U.S. federal funds rate by combining traditional macroeconomic data with sentiment analysis derived from Reddit discussions. The aim is to assess whether public sentiment improves the predictive power of regression models on interest rate movements.
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 To determine whether incorporating social media sentiment (from Reddit) alongside macroeconomic variables can improve the short-term prediction of the federal funds rate.
 
 ---
 
-## 📦 Data Sources
+##  Data Sources
 
 - **Federal Funds Rate** – Federal Reserve Bank of St. Louis (FRED)
 - **Macroeconomic Indicators**:
@@ -30,7 +30,7 @@ To determine whether incorporating social media sentiment (from Reddit) alongsid
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 
 - Time normalization across datasets to monthly frequency
 - Imputation of missing values and percent-change transformation
@@ -39,7 +39,7 @@ To determine whether incorporating social media sentiment (from Reddit) alongsid
 
 ---
 
-## 📈 Modeling
+##  Modeling
 
 - Two multivariate regression models:
   1. Baseline: Macroeconomic features only
@@ -48,7 +48,7 @@ To determine whether incorporating social media sentiment (from Reddit) alongsid
 
 ---
 
-## 🔍 Key Results
+##  Key Results
 
 | Model               | RMSE   | R²     | F-stat | Sentiment p-value |
 |--------------------|--------|--------|--------|-------------------|
@@ -60,7 +60,7 @@ To determine whether incorporating social media sentiment (from Reddit) alongsid
 
 ---
 
-## 🛠️ Tools & Libraries
+##  Tools & Libraries
 
 - Python (Pandas, NumPy)
 - Scikit-learn
@@ -69,7 +69,7 @@ To determine whether incorporating social media sentiment (from Reddit) alongsid
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 Reddit sentiment is a strong and statistically significant predictor when added to macroeconomic models of the federal funds rate. This hybrid approach can be used to enhance predictive models in economic forecasting.
 
